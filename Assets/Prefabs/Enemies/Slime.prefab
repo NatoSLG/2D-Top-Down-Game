@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3834343732327142096
+--- !u!1 &8943438878588503639
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,42 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7655209068226683234}
-  - component: {fileID: 3326949728893102177}
-  - component: {fileID: 2428099516571351160}
-  - component: {fileID: 1164081386264866983}
-  - component: {fileID: 8787511768391559426}
-  - component: {fileID: 1858900490393352067}
-  - component: {fileID: -461110221934555285}
+  - component: {fileID: 2049358215019122960}
+  - component: {fileID: 5829589670502294942}
+  - component: {fileID: 2466312007221635634}
+  - component: {fileID: 8169087352388606346}
+  - component: {fileID: 2361889308651522975}
+  - component: {fileID: 8846927940416963277}
+  - component: {fileID: 2466100294578509197}
   m_Layer: 0
-  m_Name: Elite Dark Soldier
+  m_Name: Slime
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7655209068226683234
+--- !u!4 &2049358215019122960
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834343732327142096}
+  m_GameObject: {fileID: 8943438878588503639}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.482916, y: -2.9662337, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3326949728893102177
+--- !u!212 &5829589670502294942
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834343732327142096}
+  m_GameObject: {fileID: 8943438878588503639}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -78,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: -244947597
   m_SortingLayer: -7
   m_SortingOrder: 20
-  m_Sprite: {fileID: 1433715872, guid: 685e77f53e668e84782bc334362017ae, type: 3}
-  m_Color: {r: 0.6660633, g: 0, b: 1, a: 1}
+  m_Sprite: {fileID: 1472226354, guid: 6db7b36833b93cc4a88b5230c0c1e5e9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -89,13 +89,13 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2428099516571351160
+--- !u!61 &2466312007221635634
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834343732327142096}
+  m_GameObject: {fileID: 8943438878588503639}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -125,26 +125,26 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.03125, y: 1.78125}
+    oldSize: {x: 0.625, y: 0.5}
     newSize: {x: 1.03125, y: 1.78125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 1.5}
+  m_Size: {x: 0.4, y: 0.4}
   m_EdgeRadius: 0
---- !u!95 &1164081386264866983
+--- !u!95 &8169087352388606346
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834343732327142096}
+  m_GameObject: {fileID: 8943438878588503639}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 522e2ad45d246e945943a2ed58b2e2ab, type: 2}
+  m_Controller: {fileID: 22100000, guid: e4811d942e65a7046a77c4193a155185, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -155,45 +155,45 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &8787511768391559426
+--- !u!114 &2361889308651522975
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834343732327142096}
+  m_GameObject: {fileID: 8943438878588503639}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4bc26b6591c340418c51ec9138033bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   outOfFrameAction: 1
---- !u!114 &1858900490393352067
+--- !u!114 &8846927940416963277
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834343732327142096}
+  m_GameObject: {fileID: 8943438878588503639}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 221ba0eab80da704c95c4bdc11ec5d52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentMoveSpeed: 1.5
-  currentHealth: 16
-  currentDamage: 5
+  currentMoveSpeed: 0.7
+  currentHealth: 30
+  currentDamage: 4
   damageColor: {r: 1, g: 0, b: 0, a: 0.49803922}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
   damageEffect: {fileID: 6381715040127024059, guid: 90d12dc10792d4a4f85ac0d6763e34a7, type: 3}
---- !u!114 &-461110221934555285
+--- !u!114 &2466100294578509197
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3834343732327142096}
+  m_GameObject: {fileID: 8943438878588503639}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ee798ba1f8b5a74abb65921c775ce35, type: 3}
@@ -201,12 +201,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 0
   drops:
+  - name: Experience Potion
+    itemPrefab: {fileID: 4843586580710232819, guid: e24e9f22a7676fd4cab655197e0c7ebb, type: 3}
+    dropRate: 100
   - name: Large Experience Potion
     itemPrefab: {fileID: 8968425189766455558, guid: 83773d4fbcfbb6243bbff9aba84e02f1, type: 3}
     dropRate: 50
-  - name: Health Potion
-    itemPrefab: {fileID: 2304195246968403942, guid: 35d67e46969c83a4cb8e957a29158de2, type: 3}
-    dropRate: 20
-  - name: Treasure Chest
-    itemPrefab: {fileID: 2953669916363688343, guid: a533257cde4c6ea4d9dd04f5ee9dde30, type: 3}
-    dropRate: 90

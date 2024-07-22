@@ -107,7 +107,7 @@ MonoBehaviour:
     piercing: 0
     maxInstances: 0
   - name: Level 5
-    description: Base area up by 10%. Base damage up by 5.
+    description: Base damage up by 10.
     projectilePrefab: {fileID: 0}
     auraPrefab: {fileID: 0}
     hitEffect: {fileID: 0}
@@ -118,9 +118,9 @@ MonoBehaviour:
       width: 0
       height: 0
     lifespan: 0
-    damage: 5
+    damage: 10
     damageVariance: 0
-    area: 10
+    area: 0
     speed: 0
     cooldown: 0
     projectileInterval: 0

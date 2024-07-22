@@ -4524,7 +4524,7 @@ MonoBehaviour:
   chosenCharacterName: {fileID: 181244326}
   levelReachedDisplay: {fileID: 1177780792}
   timeSurvivedDisplay: {fileID: 601776223}
-  timeLimit: 10
+  timeLimit: 600
   stopwatchDisplay: {fileID: 981873872}
   playerObject: {fileID: 1189380860}
 --- !u!4 &503022261
@@ -7095,6 +7095,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - {fileID: 11400000, guid: 31ed17989ae7c674abbcdc0fd8f448f4, type: 2}
+  - {fileID: 11400000, guid: 46c48f16f9207024e82a2b0d5c6d4711, type: 2}
+  - {fileID: 11400000, guid: 7e1111dacff24704fa036b640690162e, type: 2}
+  - {fileID: 11400000, guid: e9fc1c5ac0fefa54495f8d7ada494e77, type: 2}
+  - {fileID: 11400000, guid: 39eab468d92aa0643b8a61b26c42eb21, type: 2}
   referenceCamera: {fileID: 519420031}
   maximumEnemyCount: 300
 --- !u!1 &870239297

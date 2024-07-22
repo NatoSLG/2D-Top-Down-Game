@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7655209068226683234}
   - component: {fileID: 3326949728893102177}
-  - component: {fileID: 2248149340003657230}
+  - component: {fileID: 3310602956520328659}
   - component: {fileID: 1164081386264866983}
   - component: {fileID: 8787511768391559426}
   - component: {fileID: 1858900490393352067}
@@ -89,8 +89,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &2248149340003657230
-PolygonCollider2D:
+--- !u!61 &3310602956520328659
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -131,25 +131,9 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.25840944, y: 0.7579595}
-      - {x: -0.29453516, y: 0.73433053}
-      - {x: -0.33920336, y: 0.6204976}
-      - {x: -0.34595704, y: 0.53791463}
-      - {x: -0.39503837, y: 0.33924758}
-      - {x: -0.37907124, y: -0.2558549}
-      - {x: -0.24986672, y: -0.43299758}
-      - {x: -0.2717952, y: -0.7945793}
-      - {x: 0.30548298, y: -0.81413525}
-      - {x: 0.27254137, y: -0.36917904}
-      - {x: 0.3125232, y: -0.23567842}
-      - {x: 0.33578038, y: -0.09624167}
-      - {x: 0.33551693, y: 0.17099448}
-      - {x: 0.35121474, y: 0.57772356}
-      - {x: 0.34651017, y: 0.70185804}
-      - {x: 0.24986696, y: 0.7610781}
-  m_UseDelaunayMesh: 0
+  serializedVersion: 2
+  m_Size: {x: 0.7, y: 1.5}
+  m_EdgeRadius: 0
 --- !u!95 &1164081386264866983
 Animator:
   serializedVersion: 5
@@ -183,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4bc26b6591c340418c51ec9138033bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  outOfFrameAction: 1
 --- !u!114 &1858900490393352067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,11 +180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 221ba0eab80da704c95c4bdc11ec5d52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyData: {fileID: 11400000, guid: f2c77eaaa047dd54fb1b8c04de22d868, type: 2}
-  currentHealth: 0
-  currentSpeed: 0
-  currentDamage: 0
-  despawnDistance: 20
+  currentMoveSpeed: 1
+  currentHealth: 10
+  currentDamage: 3
   damageColor: {r: 1, g: 0, b: 0, a: 0.49803922}
   damageFlashDuration: 0.2
   deathFadeTime: 0.6
@@ -216,6 +199,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ee798ba1f8b5a74abb65921c775ce35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
   drops:
   - name: Experience Potion
     itemPrefab: {fileID: 4843586580710232819, guid: e24e9f22a7676fd4cab655197e0c7ebb, type: 3}

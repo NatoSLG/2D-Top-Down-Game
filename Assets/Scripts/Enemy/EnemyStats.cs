@@ -5,14 +5,9 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]//prevents the ability to attach the script to a game object that does not have a sprite randerer
 public class EnemyStats : MonoBehaviour
 {
-    public EnemyScriptableObject enemyData;
-
     //enemy stats
-    [HideInInspector]
-    public float currentHealth;
-    [HideInInspector]
     public float currentMoveSpeed;
-    [HideInInspector]
+    public float currentHealth;
     public float currentDamage;
 
     Transform player;
@@ -33,10 +28,6 @@ public class EnemyStats : MonoBehaviour
     void Awake()
     {
         count++;
-
-        currentHealth = enemyData.MaxHealth;
-        currentMoveSpeed = enemyData.Speed;
-        currentDamage = enemyData.Damage;
     }
 
     void Start()
